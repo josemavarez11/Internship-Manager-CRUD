@@ -523,27 +523,6 @@ namespace GestorPasantias
 
         private void button3_Click(object sender, EventArgs e)
         {
-            /*SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.FileName = "reporte.pdf";
-
-            string html = "<table border=1><tr><td></td>HOLA MUNDO</tr></table>";
-
-            if(saveFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                using(FileStream fs = new FileStream(saveFileDialog.FileName, FileMode.Create))
-                {
-                    Document pdfDoc = new Document(PageSize.A4, 25, 25, 25, 25);
-                    PdfWriter writer = PdfWriter.GetInstance(pdfDoc, fs);
-                    pdfDoc.Open();
-                    pdfDoc.Add(new Phrase(""));
-                    using (StringReader sr = new StringReader(html))
-                    {
-                        XMLWorkerHelper.GetInstance().ParseXHtml(writer, pdfDoc, sr);
-                    }
-                    pdfDoc.Close();
-                    fs.Close();
-                }
-            }*/
         }
     }
 }
