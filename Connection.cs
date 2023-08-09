@@ -10,7 +10,7 @@ namespace GestorPasantias
 {
     internal class Connection
     {
-        private static string connectionString = "Server=localhost; port=5432; user id=postgres; password=jose.29932288; database=gestion_pasantias;";
+        private static string connectionString = "Server=localhost; port=5432; user id=postgres; password=#my_password#; database=gestion_pasantias;";
         static NpgsqlConnection connection;
         public Connection(){}
 
