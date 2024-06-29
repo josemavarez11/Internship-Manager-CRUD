@@ -1,8 +1,8 @@
-# intership-manager-crud
+# Internship Manager CRUD
 
 Before this, I had never written a single line of code in C#. I learned the basics of the language and the use of Visual Studio Community during the development of this project.
 
-Internship Manager was a university project where the goal was to create a CRUD that would connect to a postgreSQL database and would allow simulating the general management of internships.
+**Internship Manager was a university project where the goal was to create a CRUD that would connect to a postgreSQL database and would allow simulating the general management of internships.**
 
 The DB in postgreSQL has five tables:
 - "tutor" General information of the intern (id, first name and last name).
@@ -25,3 +25,6 @@ This project helped me gain knowledge and practice in:
 - Data formatting to send to DB.
 
 And more...
+
+> [!NOTE]
+> School project for visual programming class at URU.
